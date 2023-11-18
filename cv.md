@@ -7,8 +7,9 @@
 ### **Contact Information:**
 
 - Email: <guralemo@gmail.com>
-- Phone Number: +995 92505336
-- Address: Tbilisi, Politkovskaia str, #3
+- Phone Number: +995 92-50-53-36
+- Address: Georgia, Tbilisi, Politkovskaia str. #3
+- GitHub: [github.com/guranda26](https://github.com/guranda26)
 
 ### **About me:**
 
