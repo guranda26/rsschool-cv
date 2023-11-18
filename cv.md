@@ -13,7 +13,7 @@
 
 ### **About me:**
 
-I'm a junior web developer with a strong ambition to become a successful full-stack developer. I began my programming journey a year ago and have since learned and practiced continuously.
+I'm a junior web developer with a strong ambition to become a successful full-stack developer. I began my programming journey a year ago and since then have learned and practiced continuously.
 My unwavering commitment to becoming a successful full-stack developer fuels my enthusiasm for facing and overcoming challenges along this evolving journey.
 
 ### **Skills:**
@@ -49,8 +49,8 @@ The application was created with the power of React, React Router, and state man
 
 1. **University Degree:**
 
-   - Bachelor’s degree in Strategic Communication in Caucasus University
-   - Bachelor’s degree in Journalism and Mass Communication in Tbilisi State University
+   - M.A. in Strategic Communication in Caucasus University
+   - B.A. in Journalism and Mass Communication in Tbilisi State University
 
 1. **Courses:**
 
