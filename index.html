@@ -11,6 +11,7 @@
     <title>My CV page</title>
   </head>
   <body>
+  <div class="container"> 
     <h1>Resume</h1>
     <aside>
       <header>
@@ -76,70 +77,73 @@
       </section>
     </aside>
     <main>
-      <section class="experience-section">
-        <h2>Experience:</h2>
-        <p class="project-info">Epam's Front-End Course Project:</p>
-        <ul class="my-cv">
-          <li>
-            My CV App
-            <a href="https://gitlab.com/guralemo/cv-app">(view source code)</a>
-          </li>
-        </ul>
-        <h3>Major Features:</h3>
-        <ul>
-          <li>Shared Components</li>
-          <li>Routing</li>
-          <li>Portfolio with Filtering</li>
-          <li>Skills Component and Form Validation</li>
-          <li>Testing and Quality Assurance</li>
-        </ul>
-      </section>
-      <section class="education-section">
-        <h2>Education:</h2>
-        <ol>
-          <li>
-            <strong>University Degree:</strong>
-            <ul>
-              <li>M.A. in Strategic Communication in Caucasus University</li>
-            </ul>
-            <ul>
-              <li>
-                B.A. in Journalism and Mass Communication in Tbilisi State
-                University
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Courses:</strong>
-            <ul>
-              <li>Front-End Course - Epam</li>
-              <li>
-                Build Responsive Real-World Websites with HTML and CSS - Udemy
-              </li>
-              <li>
-                The Complete JavaScript Course 2024: From Zero to Expert! -
-                Udemy
-              </li>
-              <li>Mastering TypeScript - 2023 Edition - Udemy</li>
-            </ul>
-          </li>
-        </ol>
-      </section>
-      <section class="skills-section">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML/CSS</li>
-          <li>JavaScript (ES6+)</li>
-          <li>SASS/SCSS</li>
-          <li>React.js</li>
-          <li>TypeScript</li>
-          <li>Git/Github</li>
-          <li>NPM</li>
-        </ul>
-      </section>
-      <article class="code-example">
-        <h2>Code example</h2>
-        <pre>
+      
+        <section class="experience-section">
+          <h2>Experience:</h2>
+          <p class="project-info">Epam's Front-End Course Project:</p>
+          <ul class="my-cv">
+            <li>
+              My CV App
+              <a href="https://gitlab.com/guralemo/cv-app"
+                >(view source code)</a
+              >
+            </li>
+          </ul>
+          <h3>Major Features:</h3>
+          <ul>
+            <li>Shared Components</li>
+            <li>Routing</li>
+            <li>Portfolio with Filtering</li>
+            <li>Skills Component and Form Validation</li>
+            <li>Testing and Quality Assurance</li>
+          </ul>
+        </section>
+        <section class="education-section">
+          <h2>Education:</h2>
+          <ol>
+            <li>
+              <strong>University Degree:</strong>
+              <ul>
+                <li>M.A. in Strategic Communication in Caucasus University</li>
+              </ul>
+              <ul>
+                <li>
+                  B.A. in Journalism and Mass Communication in Tbilisi State
+                  University
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Courses:</strong>
+              <ul>
+                <li>Front-End Course - Epam</li>
+                <li>
+                  Build Responsive Real-World Websites with HTML and CSS - Udemy
+                </li>
+                <li>
+                  The Complete JavaScript Course 2024: From Zero to Expert! -
+                  Udemy
+                </li>
+                <li>Mastering TypeScript - 2023 Edition - Udemy</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section class="skills-section">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>SASS/SCSS</li>
+            <li>React.js</li>
+            <li>TypeScript</li>
+            <li>Git/Github</li>
+            <li>NPM</li>
+          </ul>
+        </section>
+        <article class="code-example">
+          <h2>Code example</h2>
+          <pre>
   <code class="javascript-code">const scrollToElement = (elementId) => {
     const element = document.getElementById(elementId);
       if (element) {
@@ -148,7 +152,8 @@
       }
   };</code>
         </pre>
-      </article>
+        </article>
+      </div>
     </main>
     <footer>
       <span class="material-symbols-outlined click"> right_click </span>
@@ -160,5 +165,6 @@
         <figcaption><a href="https://rs.school/">Course Link</a></figcaption>
       </figure>
     </footer>
+  </div> 
   </body>
 </html>
