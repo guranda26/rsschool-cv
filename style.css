@@ -1,0 +1,11 @@
+header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid rgb(120, 107, 107);
+  border-radius: 75px;
+}
+
+footer img {
+  width: 100px;
+}
