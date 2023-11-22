@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+}
+body {
+  font-family: "cursive", "arial", sans-serif;
+  /* font-size: 18px; */
+}
 header img {
   width: 150px;
   height: 150px;
@@ -8,4 +18,25 @@ header img {
 
 footer img {
   width: 100px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  /* position: relative;
+  top: 40px; */
+  /* color: aquamarine; */
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.author-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 7px 0;
+  /* text-align: center; */
 }
