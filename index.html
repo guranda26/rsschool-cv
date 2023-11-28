@@ -11,26 +11,42 @@
     <title>My CV page</title>
   </head>
   <body>
-    <div class="container">
+    <header class="header">
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#summary">About Me</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#languages">languages</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#tech-skills">technical skills</a></li>
+          <li><a href="#example">Code example</a></li>
+        </ul>
+      </nav>
+    </header>
+    <header>
       <h1>Resume</h1>
       <aside>
-        <header>
-          <nav>
-            <img
-              src="./image/myPhoto.jpeg"
-              alt="Guranda Lemonjava - image for CV"
-            />
-            <p class="author-name">Guranda Lemonjava</p>
-
-            <section class="contact-info">
-              <h2>Contact Me:</h2>
-              <address>
-                <p>
-                  <span class="material-symbols-outlined icon">location_on</span
-                  >Tbilisi, 123 Backer Street
-                </p>
-              </address>
+        <img
+          src="./image/myPhoto.jpeg"
+          alt="Guranda Lemonjava - image for CV"
+        />
+        <p class="author-name">Guranda Lemonjava</p>
+        <div class="contact-summary">
+          <section class="contact-info" id="contact">
+            <h2>Contact Me:</h2>
+            <nav>
               <ul>
+                <li>
+                  <address>
+                    <p>
+                      <span class="material-symbols-outlined icon"
+                        >location_on</span
+                      >Tbilisi, 123 Backer Street
+                    </p>
+                  </address>
+                </li>
                 <li>
                   <span class="material-symbols-outlined icon">mail</span
                   ><a href="mailto:example@gmail.com">example@gmail.com</a>
@@ -40,44 +56,27 @@
                   ><a href="tel:995999-999">995 99-99-99</a>
                 </li>
               </ul>
-            </section>
-          </nav>
-        </header>
+            </nav>
+          </section>
 
-        <section class="summary-section">
-          <h2>About me:</h2>
-          <p>
-            I'm a junior web developer with a strong ambition to become a
-            successful full-stack developer. I began my programming journey a
-            year ago and since then have learned and practiced continuously. My
-            unwavering commitment to becoming a successful full-stack developer
-            fuels my enthusiasm for facing and overcoming challenges along this
-            evolving journey.
-          </p>
-        </section>
-        <section class="languages-section">
-          <h2>Languages</h2>
-          <ul>
-            <li>English (B2)</li>
-            <li>Spanish (B2)</li>
-            <li>Russian (B1)</li>
-            <li>Portuguese (B1)</li>
-          </ul>
-        </section>
-        <section class="program-skills">
-          <h2>Other technical skills</h2>
-          <ul>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Facebook ads manager</li>
-            <li>Microsoft word</li>
-            <li>Microsoft Excel</li>
-            <li>Microsoft PowerPoint</li>
-          </ul>
-        </section>
+          <section class="summary-section" id="summary">
+            <h2>Summary:</h2>
+            <p>
+              I'm a junior web developer with a strong ambition to become a
+              successful full-stack developer. I began my programming journey a
+              year ago and since then have learned and practiced continuously.
+              My unwavering commitment to becoming a successful full-stack
+              developer fuels my enthusiasm for facing and overcoming challenges
+              along this evolving journey.
+            </p>
+          </section>
+        </div>
       </aside>
-      <main>
-        <section class="experience-section">
+    </header>
+
+    <main>
+      <div class="experience-education">
+        <section class="experience-section" id="experience">
           <h2>Experience:</h2>
           <p class="project-info">Epam's Front-End Course Project:</p>
           <ul class="my-cv">
@@ -97,7 +96,7 @@
             <li>Testing and Quality Assurance</li>
           </ul>
         </section>
-        <section class="education-section">
+        <section class="education-section" id="education">
           <h2>Education:</h2>
           <ol>
             <li>
@@ -128,21 +127,46 @@
             </li>
           </ol>
         </section>
-        <section class="skills-section">
-          <h2>Skills</h2>
+      </div>
+      <div class="skills">
+        <section class="skills-section" id="skills">
+          <nav>
+            <h2>Skills</h2>
+            <ul>
+              <li><a href="#">HTML/CSS</a></li>
+              <li><a href="#">JavaScript (ES6+)</a></li>
+              <li><a href="#">SASS/SCSS</a></li>
+              <li><a href="#">React.js</a></li>
+              <li><a href="#">TypeScript</a></li>
+              <li><a href="#">Git/Github</a></li>
+              <li><a href="#">NPM</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="languages-section" id="languages">
+          <h2>Languages</h2>
           <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript (ES6+)</li>
-            <li>SASS/SCSS</li>
-            <li>React.js</li>
-            <li>TypeScript</li>
-            <li>Git/Github</li>
-            <li>NPM</li>
+            <li>English (B2)</li>
+            <li>Spanish (B2)</li>
+            <li>Russian (B1)</li>
+            <li>Portuguese (B1)</li>
           </ul>
         </section>
-        <article class="code-example">
-          <h2>Code example</h2>
-          <pre>
+        <section class="program-skills" id="tech-skills">
+          <h2>Other technical skills</h2>
+          <ul>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Facebook ads manager</li>
+            <li>Microsoft word</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft PowerPoint</li>
+          </ul>
+        </section>
+      </div>
+      <article class="code-example" id="example">
+        <h2>Code example</h2>
+        <pre>
   <code class="javascript-code">const scrollToElement = (elementId) => {
     const element = document.getElementById(elementId);
       if (element) {
@@ -151,18 +175,17 @@
       }
   };</code>
         </pre>
-        </article>
-      </main>
-      <footer>
-        <span class="material-symbols-outlined click"> right_click </span>
-        <span class="github-link">My Github account: </span
-        ><a class="github-link" href="https://github.com/guranda26">Click</a>
-        <p>Date: <time datetime="2023-11-22">22/11/2023</time></p>
-        <figure>
-          <img src="./image/rsSchoolLogo.png" alt=" Rs School - course logo" />
-          <figcaption><a href="https://rs.school/">Course Link</a></figcaption>
-        </figure>
-      </footer>
-    </div>
+      </article>
+    </main>
+    <footer>
+      <span class="material-symbols-outlined click"> right_click </span>
+      <span class="github-link">My Github account: </span
+      ><a class="github-link" href="https://github.com/guranda26">Click</a>
+      <p>Date: <time datetime="2023-11-22">22/11/2023</time></p>
+      <figure>
+        <img src="./image/rsSchoolLogo.png" alt=" Rs School - course logo" />
+        <figcaption><a href="https://rs.school/">Course Link</a></figcaption>
+      </figure>
+    </footer>
   </body>
 </html>
