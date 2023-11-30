@@ -4,8 +4,9 @@
   padding: 0;
 }
 body {
-  font-family: "cursive", "arial", sans-serif;
+  font-family: "arial", sans-serif;
   text-align: center;
+  margin: 0 auto;
 }
 
 section {
@@ -229,7 +230,7 @@ h2 {
   margin-bottom: 8px;
 }
 .skills {
-  height: 250px;
+  min-height: 250px;
   margin-bottom: 50px;
 }
 .skills section {
@@ -238,7 +239,7 @@ h2 {
   margin-right: 30px;
   line-height: 1.5;
   padding: 20px;
-  height: inherit;
+  height: 250px;
 }
 
 .skills h2 {
@@ -292,7 +293,9 @@ footer {
   text-align: center;
   line-height: 2;
 }
-
+footer section {
+  display: block;
+}
 footer .click {
   font-size: 21px;
   vertical-align: baseline;
